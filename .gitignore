@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large files — keep raw/processed out of git unless using LFS)
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models (large binaries)
+models/*.pkl
+!models/.gitkeep
+
+# Outputs
+outputs/*.csv
+outputs/*.json
+!outputs/.gitkeep
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Env
+.env
